@@ -1,0 +1,106 @@
+26/06/2008 10.27.13, a, a
+10/09/2008 9.39.23, g, aat1asse
+10/09/2008 9.40.10, g, aat2asse
+10/09/2008 9.45.34, g, rp3000
+10/09/2008 11.58.44, g, aat1asse
+10/09/2008 12.19.58, g, aat1 3 4asse le soglie di temp sono state impostate al limite inferiore piu 1 decimo di grado
+12/09/2008 16:42:57, g, temperature aat3000 2 asse
+09/12/2008 18:48:28, a, a
+09/12/2008 19:08:46, a, a
+10/12/2008 11:45:25, e, e
+10/12/2008 11:46:57, e, e
+10/12/2008 17:40:16, e, modificati parametri rp3000, allineati a nuovo prodotto VBM Freccia
+11/12/2008 15:35:58, e, variata velocita riscaldamento da 450 a 200
+11/12/2008 15:37:54, e, variata velocita riscaldamento da 450 a 200
+21/01/2009 16.20.40, Manfroi, variati  i parametri di coppia durante 6 bar; valori specifici Centauro Italia
+30/01/2009 14.31.31, manfroi, riportato valore coppia vbm
+04/02/2009 16.14.31, manfroi, tempi gonfiaggio modificati
+04/02/2009 16.40.41, manfroi, ripristinati tempi di gonfiaggio
+11/02/2009 9.38.21, prova al telefono, speriamo funzioni
+11/02/2009 15.12.35, m, m
+12/02/2009 11.25.25, Manfroi, aumentata soglia pressione a 1,2 bar per prove su RP
+16/02/2009 14.05.31, Manfroi, reimpostato il corretto valore di tolleranza perdita gonfiaggio a 0,2 bar
+03/03/2009 17.06.01, MANFROI, PRESSIONE OLIO RICIRCOLO MIN PORTATA DA 0,4 A 0,3 BAR
+07/04/2009 11.50.32, manfroi, modificato press inserimento trazione era 5.9  diventa 4.9 bar
+09/04/2009 15.01.17, m, m
+09/04/2009 15.03.31, m, m
+09/04/2009 15.04.24, m, m
+09/04/2009 15.14.51, m, m
+09/04/2009 15.15.54, m, m
+09/04/2009 16.38.33, manfroi, dopo prove varie con T olio elevata ripristinate le corrette soglie di T olio
+10/04/2009 11.25.40, manfroi, abbassati i tempi di gonfiaggio e stabilizzazione
+10/04/2009 11.26.19, Manfroi, tempi gonfiaggio
+18/12/2009 10.09.38, egitto, mod.valore V torsiometro 18.12.09
+18/12/2009 10.18.36, egitto, mod.valore V torsiometro 18.12.09
+18/12/2009 10.31.29, egitto, mod. V torsiometro 18.12.09
+18/12/2009 10.34.20, egitto , tar.tors.18.12.09
+18/12/2009 10.34.55, egitto, 18.12.09
+18/12/2009 10.35.47, egitto, 18.12.09
+18/12/2009 10.36.32, egitto, 18.12.09
+18/12/2009 10.37.30, egitto, 18.12.09
+
+18/12/2009 10.39.02, egitto, 18.12.09
+
+18/12/2009 11.34.17, Manfroi, ripristinato valore azzeramento torsiometro = 0,03V
+18/12/2009 12.20.28, egitto, 18/12/2009
+11/02/2010 17.01.26, Manfroi, aggiornati valori di tolleranza di coppia ai vari passi AAT3000 2°asse su base di rev. 01 del 16/01/08
+12/02/2010 10.12.28, Manfroi, aggiornati valori di tolleranza AAT 1-3-4 secondo rev. 00 del 25/01/08
+18/02/2010 9.53.03, Manfroi, Tolleranza di RP 3000 variata da 3 ÷ 9 a 3 ÷ 11 ovvero con valore minimo VBM e massimo Centauro
+16/03/2010 9.29.25, Manfroi, sostituito torsiometro, prova di azzeramento canale di coppia
+16/03/2010 9.30.10, Manfroi, torsiometro da 0,03 V a 0 V
+16/03/2010 9.31.21, Manfroi, 0.01 V
+16/03/2010 9.31.56, Manfroi, 0,00 V
+16/03/2010 9.35.41, Manfroi, 0,01 V
+16/03/2010 9.36.50, Manfroi, riportato valore torsiometro a 0,03V
+22/03/2010 18.02.18, Manutenzione, portato a 0,1
+21/05/2010 8.24.11, Manfroi, ampliati i valori di tolleranza coppia per collaudo ed analisi difetti
+verranno ristretti al termine della giornata
+21/05/2010 8.27.49, Manfroi, aumentata tolleranza perdita gonfiaggio
+03/06/2010 13.54.03, Manfroi, ripristinati valori di coppia
+29/06/2010 15.29.33, Manfroi, messi i parametri secondo tolleranza
+15/07/2010 12.10.15, Manfroi, alzata coppia max fase 1 causa alte temperature
+02/08/2010 7.15.12, Manfroi, nel ciclo automatico caricava 0,31 bar invece di 0,5 bar
+aumentata pressurizzazione minima da 0,30 bar a 0,40 bar
+01/09/2010 15.24.25, Manfroi, ripristinato a 10 Nm il valore max di coppia nello step 1
+23/02/2011 15.11.21, Manfroi, abbassata la soglia inserimento trazione da 5,90 a 5,70 bar
+21/05/2013 10.47.22, PM, MODIFICATO 0 TORSIOMETRO
+21/05/2013 10.48.01, XX, XX
+21/05/2013 10.50.09, XX, XX
+21/05/2013 10.50.57, XX, XX
+21/05/2013 10.51.57, XX, XX
+21/05/2013 10.53.14, XX, XX
+21/05/2013 10.57.16, XX, XX
+21/05/2013 10.58.33, XX, XX
+21/05/2013 10.59.27, XX, XX
+21/05/2013 11.00.24, XX, XX
+21/05/2013 11.01.21, XX, XX
+21/05/2013 11.03.22, XX, XX
+
+21/05/2013 11.04.50, XX, XX
+21/05/2013 11.18.16, XX, XX
+
+21/05/2013 11.49.11, xx, xx
+21/05/2013 11.50.22, xx, xx
+21/05/2013 11.51.57, xx, xx
+21/05/2013 12.01.51, xx, xx
+21/05/2013 12.02.48, xx, xx
+21/05/2013 12.05.53, xx, xx
+21/05/2013 12.07.38, xx, xx
+21/05/2013 12.08.43, xx, xx
+21/05/2013 12.09.41, xx, xx
+21/05/2013 12.18.07, xx, xx
+21/05/2013 12.22.35, xx, xx
+21/05/2013 12.55.47, xx, xx
+21/05/2013 12.56.31, xx, xx
+07/04/2017 14.21.19, Manfroi, coppie VBM e ACV
+10/05/2017 13.15.29, Manfroi, valori B1
+12/05/2017 5.54.59, Ferrante, Cambio parametri da B1 Centauro a VBM 
+12/05/2017 7.32.28, Ferrante, Cambio parametri da B1 a VBM
+12/05/2017 8.50.09, MANFROI, caricati valori VBM
+12/05/2017 9.06.56, Manfroi, coppie
+12/05/2017 10.24.09, Manfroi, ripristinati valori
+20/02/2018 14.10.44, Manfroi, Tolleranze min e max di B1 e VBM
+10/04/2019 10.57.50, Manfroi, 10/04/2019 inserite le sole tolleranze di VBM e ACV (no B1)
+09/07/2019 13.36.10, Manfroi, aumentati i valori di coppia per verifica secondi assi
+10/07/2019 9.21.08, Manfroi, abbassata pressione di ricircolo
+27/02/2024 15.53.27, Manfroi, abbassata la tolleranza massima di coppia

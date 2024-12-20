@@ -1,0 +1,10 @@
+OPERATORE	AUTOCONTROLLO	PASSWORD
+Di Narda Andrea	77	01895210
+Manfroi Manuel	Manfroi	10209200
+Ferrante Fabio	59	1978110
+Gennaro Luca	133	1959110
+Iaria Alessandro	98	15038573
+Bergamasco Claudio	19	15037904
+Quartuccio Generoso	501	15088488
+Dal Farra Daniele	24	15402262
+Rampazzo Luca	23	15111212

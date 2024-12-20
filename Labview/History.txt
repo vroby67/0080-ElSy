@@ -1,0 +1,55 @@
+04/06/2008
+
+Rel. 2,00
+
+- Aggiunta di una finestra in pagina LOGIN, dove viene visualizzata una foto del prodotto selezionato
+- Aggiunta di un menù a tendina nella pagina LOGIN per la selezione dell'operatore macchina
+- Aggiunta di tre livelli password: amministratore, manutenzione, operatore. Il livello operatore è poi a sua volta suddiviso con una password diversa per operatore macchina
+- Pagina Amministratore (sotto password) per la modifica, cancellazione, aggiunta nuovi operatori macchina; modifica password manutenzione; modifica password amministratore
+- Stampa di un report anche per i pezzi scarto
+- Discriminata la cartella di salvataggio report in due sottocartelle (positivo/negativo) per i buoni e per gli scarti
+- Data all'operatore la possibilità di scegliere un ulteriore percorso di salvataggio del report
+- Possibiltà di stampare, aprire il report o uscire, dopo il salvataggio del report di collaudo
+- Pagina parametri, accessibile solo per il livello amministratore con possibilità di modificare e salvare i parametri di collaudo. Viene salvato un file con data ogni volta che si decide di modificare permanentemente un valore di specifica. Questi file possono poi essere ricaricati direttamente dalla pagina parametri
+- Modificati i report con l'aggiunta di una nuova tipologia di prodotto (REVISIONE)
+- Modificato il ciclo di collaudo e relativi report per lo spostamento del controllo perdite olio a fine ciclo
+- Dalla pagina di manutenzione si può uscire solo dopo aver inserito la password di manutenzione, altrimenti la macchina rimane bloccata fino a manutenzione eseguita
+- Aggiunta la possibilità di continuare il collaudo anche se il pezzo è scarto, funzione abilitabile con sequenza tasti e nascosta
+- Aggiunta la possibilità di sospendere temporaneamente la prova e riprenderla successivamente da dove ci si era interrotti
+- Aggiunto contatore cicli per manutenzione. Allo scadere viene visualizzata la pagina delle manutenzioni e interbloccata la macchina fino a manutenzione eseguita
+
+26/06/2008
+- Aggiunto indicatore timeout per preallarme manutenzione
+
+10/09/2008
+- Aggiunto un controllo che impedisce di caricare una specifica di un prodotto diverso da quello selezionato in avvio prova
+
+09/12/2008
+- Aggiunto pulsante "VERNICIATO" "NON VERNICIATO" per gruppi RP3000 nella pagina di selezione prodotto
+- Modificata la registrazione delle temperature olio di funzionamento: salvo direttamente quelle impostate a specifica e non piu' quelle restituite dal banco
+- Passata da 1 a 3 decimali la registrazione delle perdite di gonfiaggio sul report dell'RP3000
+- Aggiunto coefficiente di azzeramento torsiometro in pagina parametri (0,03 V). Viene caricato e registrato sul nuovo file PARAMETRI_MACCHINA.ini sotto C:\
+- Modificato modello report per RP3000 con nuovi valori di giri e coppia per 4 e 5 funzionamento, allineandosi al nuovo prodotto VBM Freccia. Per il futuro forse bisognera' creare una famiglia solo per questo prodotto
+- Campionate misure di temperatura olio per gruppi RP3000 non verniciati, creati i nuovi coefficienti di correzione
+- Campionate misure di temperatura olio per gruppi RP3000 verniciati, creati i nuovi coefficienti di correzione
+- Cambiato il range di coppia visualizzato a pannello sia in fase di prova che nei comandi manuali (il valore massimo e' passato da 200 a 100 Nm)
+
+15/12/2008
+- Modificata la registrazione dei dati sul report, ora mi appoggio su una globale ("Dati_report"), in modo da evitare una sovrascrittura dei dati
+
+09/02/2009
+- Aggiunti due nuovi parametri: K_PERDITA_GONFIAGGIO e K_PERDITA_PRESSURIZ per tutti i prodotti
+
+17/02/2009
+- Aggiunto pulsante su sinottico che foza la stampa del report con gli ultimi dati, si attiva solo a ciclo concluso e può essere utilizzato solo una volta a collaudo
+
+18/03/2009
+- Tolto il pulsante di ristampa report (NON FUNZIONAVA)
+- Modificati i vi di scarico e prot35, una volta flaggati tutti gli esiti di scarico stampo necessariamente un report di buoni (se sono arrivato li è perchè il collaudo è andato a buon fine) e esco dalla fase di scarico o prot35 se e solo se sono flaggati tutti gli esiti (non c'è più all'interno di questi vi il controllo di fase collaudo da parte del PLC)
+- Spostato l'ok di fine ciclo PC->PLC fuori dal vi di fine collaudo, solo quando viene chiusa la pagina di stampa report viene dato l'ok al PLC di iniziare un nuovo ciclo
+
+17/06/2009
+- Modificato PLC_PC.vi in modo tale che la variabile globale Fase_collaudo venga aggiornata solo dopo tutte le altre variabili, per assicurarmi di non trovare sul report dei valori a zero perchè letti prima di essere effettivamente aggiornati
+
+09/09/2009
+- I dati da scrivere sul report vengono raccolti tutti alla fine del collaudo e non più man mano che le varie fasi di collaudo vengono eseguite. In questo modo vado a leggere sempre tutte le variabili contenenti i dati senza possibilità di saltarne qualcuna e sfalsare il report, in più dò al PLC tutto il tempo per aggiornare i nuovi valori sulla DB evitando di andarli a leggere troppo presto quando sono ancora a zero
